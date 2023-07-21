@@ -27,7 +27,7 @@ export default Header;
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 1280px;
   height: 72px;
   margin-top: 79px;
   margin-left: 80px;
@@ -53,6 +53,10 @@ const HelpContainer = styled.div`
   width: 91px;
   height: 44px;
   margin-top: 14px;
+
+  span {
+    margin-left: 6px;
+  }
 `;
 
 const MobileHeader = styled.div`
